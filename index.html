@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio pribadi dan proyek web.">
+  <title>Portofolio Pribadi | Nurmadina</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- BAGIAN 1: NAVBAR -->
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navigasi utama">
+      <a class="brand" href="#beranda" aria-label="Kembali ke beranda">
+        <span class="brand-mark">N</span><span>NURMADINA<span class="brand-dot"></span></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#beranda">Beranda</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#proyek">Proyek</a>
+        <a class="nav-cta" href="#kontak">Hubungi Saya <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- BAGIAN 1: HERO SECTION -->
+    <section class="hero container" id="beranda">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="eyebrow-dot"></span> PORTOFOLIO PRIBADI</span>
+        <p class="hello">Halo, saya</p>
+        <h1>Nurmadina<span class="gradient-text">.</span></h1>
+        <h2>Mahasiswa &amp;  <span class="gradient-text">Mahasusah</span></h2>
+        <p class="hero-description">Senang rasanya mempelajari hal yang dulu cuman ada di bayangan saya, sekarang sudah di depan mata tetapi tidak menyangka akan sesusah ini</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#proyek">Lihat Proyek <span>↘</span></a>
+          <button class="button button-secondary" id="openProfile">Kenali Saya <span>♡</span></button>
+        </div>
+        <div class="hero-note"><span class="status-dot"></span> Terus belajar, jangan menyerah kamu pasti bisa</div>
+      </div>
+
+      <div class="hero-art profile-art" aria-label="Ilustrasi kartu profil bergaya pastel">
+        <div class="profile-orb orb-a"></div><div class="profile-orb orb-b"></div>
+        <div class="profile-card">
+          <div class="profile-card-top"><span class="profile-brand">PORTOFOLIO</span><span class="profile-heart">♡</span></div>
+            <div class="profile-portrait">
+            <img src="img/foto-saya.jpeg" alt="Foto Nurmadina" class="portrait-img"
+            style="--photo-pos: center top;">
+            </div>
+          <div class="profile-card-copy"><span class="profile-mini-label">HALO, SAYA</span><h2>Nurmadina</h2><p>Mahasiswa Informatika</p><div class="profile-pills"><span>Cantik</span><span>Baik dan tidak sombong</span></div></div>
+        </div>
+        <div class="profile-float float-one">✦ Belajar &amp; berkarya</div>
+       
+      </div>
+    </section>
+
+    <!-- BAGIAN TENTANG: konten portofolio pribadi -->
+    <section class="about-section container" id="tentang">
+      <div class="section-heading">
+        <span class="eyebrow">SEDIKIT TENTANG SAYA</span>
+        <h2>Makanan kesukaan?<br><span class="gradient-text">Minuman kesukaan?</span></h2>
+      </div>
+      <div class="about-content">
+        <p>Saya suka makan bakso dan mie ayamm. Minuman yang paling saya suka itu jeruk peras, karena lebih seger aja gitu di tenggorokan dari minuman lainnya. Selain itu saya juga suka minum ThaiTea</p>
+        <div class="about-badges"><span>♡ Kreatif</span><span>✦ Mau belajar</span><span>✿ Kolaboratif</span></div>
+      </div>
+    </section>
+
+    <!-- BAGIAN 2: GRID KARTU PROYEK -->
+    <section class="projects-section container" id="proyek">
+      <div class="section-heading section-heading-row">
+        <div><span class="eyebrow">KARYA PILIHAN</span><h2>Proyek <span class="gradient-text">Saya.</span></h2></div>
+        <p>Beberapa contoh proyek untuk menunjukkan proses belajar dan ide yang saya kembangkan.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-visual visual-pink">
+          
+            <div class="project-img-wrapper">
+            <img src="img/portofolio-pribadi.jpeg" alt="Portofolio Pribadi">
+            </div>
+            </div>
+          <div class="project-info"><h3>Portofolio Pribadi</h3><p>Website pribadi untuk memperkenalkan diri, menampilkan karya, serta berbagi informasi tentang minat dan proses belajar saya</p><a href="#kontak" class="project-link">Lihat detail <span>↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-lilac">
+          
+            <div class="project-img-wrapper">
+            <img src="img/apk-kos.jpeg" alt="Portofolio Pribadi">
+            </div>
+          </div>
+          <div class="project-info"><h3>Aplikasi Pencarian Kos</h3><p>Aplikasi untuk membantu pengguna mencari tempat kos berdasarkan lokasi, harga, dan fasilitas yang sesuai dengan kebutuhan</p><a href="#kontak" class="project-link">Lihat detail <span>↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-mint">
+            
+          
+          <div class="project-img-wrapper">
+            <img src="img/palang-sensor.jpeg" alt="Portofolio Pribadi">
+            </div>
+            </div>
+          <div class="project-info"><h3>Sensor Palang Otomatis Berbasis Arduino Uno</h3><p>Sistem palang otomatis menggunakan Arduino Uno dan sensor untuk mendeteksi objek serta mengatur buka-tutup palang sesuai rancangan</p><a href="#kontak" class="project-link">Lihat detail <span>↗</span></a></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- BAGIAN 3: FORM KONTAK DENGAN VALIDASI -->
+    <section class="contact-section" id="kontak">
+      <div class="contact-layout container">
+        <div class="contact-copy">
+          <span class="eyebrow eyebrow-light">SAY HELLOOOO</span>
+          <h2>Mari ngobrol<br><span>dan saling terhubung</span></h2>
+          <p>Ada ide, hal yang ingin didiskusikan, atau sekedar ingin menyapa? Kirim pesanmu lewat formulir di samping, ya!</p>
+          <div class="contact-note"><span class="note-icon">✉</span><span>Formulir ini menampilkan konfirmasi di browser. Pesan belum dikirim ke email atau server.</span></div>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-heading"><h3>Kirim Pesan</h3><span>♡</span></div>
+          <div class="form-field"><label for="name">Nama lengkap</label><input type="text" id="name" name="name" placeholder="Masukkan nama kamu" required minlength="2"><small class="field-error" id="nameError"></small></div>
+          <div class="form-field"><label for="email">Alamat email</label><input type="email" id="email" name="email" placeholder="nama@email.com" required><small class="field-error" id="emailError"></small></div>
+          <div class="form-field"><label for="message">Pesan</label><textarea id="message" name="message" rows="4" placeholder="Tulis pesan kamu di sini..." required minlength="10"></textarea><small class="field-error" id="messageError"></small></div>
+          <button class="button button-primary submit-button" type="submit">Kirim Pesan <span>↗</span></button>
+          <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="brand footer-brand" href="#beranda"><span class="brand-mark">N</span><span>NURMADINA<span class="brand-dot">.</span></span></a><p>Dibuat dengan semangat belajar dan sukacita <span>♡</span></p><a href="#beranda" class="back-top">Kembali ke atas ↑</a></div>
+  </footer>
+
+  <!-- BAGIAN 4: MODAL INTERAKTIF -->
+  <div class="modal-overlay" id="profileModal" aria-hidden="true">
+    <section class="profile-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="closeProfile" aria-label="Tutup modal">×</button>
+      <div class="modal-icon">♡</div><span class="eyebrow">KENALI SAYA</span>
+      <h2 id="modalTitle">Halo, senang bertemu denganmu!</h2>
+      <p>Saya sedang belajar membuat website menggunakan HTML, CSS, dan JavaScript. Saya ingin terus mengembangkan keterampilan dan membuat karya digital yang bermanfaat.</p>
+      <div class="modal-skills"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+      <button class="button button-primary" id="modalDone">Siap, terima kasih!</button>
+    </section>
+  </div>
+   <!-- STRUKTUR MODAL / POPUP -->
+    <div id="projectModal" class="modal-overlay" aria-hidden="true">
+      <div class="modal-content">
+        <button class="modal-close" aria-label="Tutup modal">&times;</button>
+        <h3 id="modalTitle">Judul Proyek</h3>
+        <p id="modalDesc">Deskripsi lengkap proyek akan muncul di sini...</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
